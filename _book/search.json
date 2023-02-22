@@ -14,25 +14,25 @@
     "text": "Ce projet a vu le jour sous l’impulsion d’un professeur en sciences de matériaux dans une école d’ingénieurs. En s’associant à des chercheurs en pédagogie et en Game design ainsi qu’avec un développeur de jeux, il a donné naissance au projet Benja. Le projet, démarré en 2020, met au travail une équipe pluridisciplinaire inédite. les compétences en présence permettent de rendre crédible l’intention de créer un jeu engageant, motivant et qui modèle des apprentissages en sciences des matériaux sans rien sacrifier au plaisir de jouer."
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
     "objectID": "team.html",
     "href": "team.html",
     "title": "2  Composition d’équipe",
     "section": "",
     "text": "Samuel Rey-Mermet, ingénierie et science des matériaux\nGaëtan Cretton, développement de jeux\nLional Alvarez, pédagogie et game design\nGuillaume Tschupp, pédagogie et game design\nNicolas Bressoud, pédagogie"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Description du projet et intention générale",
+    "section": "",
+    "text": "Le projet Benja peut-être pensé comme une expérience de jeu vidéo à la fois ludique et à la fois source d’apprentissage dans un domaine disciplinaire très précis, la science des matériaux. Dans les premières étapes du design, l’équipe est dans une activité constante d’élaboration d’une expérience de jeu qui mêle plaisir et apprentissage. Au sein des étapes clés de développement, l’identification des connaissances et compétences de l’ingénierie, la préparation d’un game design ludique, l’élaboration des mécanismes de jeu ou la construction d’une trame narrative se pensent conjointement :\n\n« On est en train de préparer le design d’un jeu qui va améliorer l’apprentissage des étudiants en sciences des matériaux. On est en train de préparer un jeu qui est basé aussi sur le rôle des femmes dans l’ingénierie, qui met dans son ADN la notion de développement durable. Et on aimerait que le jeu soit une manière de permettre aux étudiants d’approfondir certaines connaissances et compétences liées à l’ingénierie en sciences des matériaux. »"
+  },
+  {
+    "objectID": "transfert.html",
+    "href": "transfert.html",
+    "title": "4  Transférabilité du projet",
+    "section": "",
+    "text": "Dans Benja, le gameplay et le cœur pédagogique sont élaborés dans le contexte de la science des matériaux. les mécanismes du jeu dépendent ainsi des connaissances et compétences visées dans l’ingénierie. Ce processus d’élaboration d’un jeu profondément pensé pour la science des matériaux est la plus-value de l’équipe. Ceci signifie que les briques d’élaboration du jeu peuvent être récupérées et adaptées à d’autres disciplines, en particulier dans l’ingénierie."
   },
   {
     "objectID": "progress.html#partie-modélisation-du-domaine-disciplinaire",
@@ -54,13 +54,6 @@
     "title": "5  État d’avancement (22 février 2023)",
     "section": "5.3 Partie « Game design »",
     "text": "5.3 Partie « Game design »"
-  },
-  {
-    "objectID": "transfert.html",
-    "href": "transfert.html",
-    "title": "4  Transférabilité du projet",
-    "section": "",
-    "text": "Dans Benja, le gameplay et le cœur pédagogique sont élaborés dans le contexte de la science des matériaux. les mécanismes du jeu dépendent ainsi des connaissances et compétences visées dans l’ingénierie. Ce processus d’élaboration d’un jeu profondément pensé pour la science des matériaux est la plus-value de l’équipe. Ceci signifie que les briques d’élaboration du jeu peuvent être récupérées et adaptées à d’autres disciplines, en particulier dans l’ingénierie."
   },
   {
     "objectID": "next.html",

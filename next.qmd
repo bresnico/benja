@@ -1,6 +1,5 @@
 ---
 title: "Prochaines étapes"
-toc: false
 ---
 
 ###	Réaliser une présentation (Pitch Presentation)
