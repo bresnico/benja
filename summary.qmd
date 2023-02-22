@@ -1,0 +1,7 @@
+# Description du projet et intention générale
+
+Le projet Benja peut-être pensé comme une expérience de jeu vidéo à la fois ludique et à la fois source d'apprentissage dans un domaine disciplinaire très précis, la science des matériaux.
+Dans les premières étapes du design, l'équipe est dans une activité constante d'élaboration d'une expérience de jeu qui mêle plaisir et apprentissage.
+Au sein des étapes clés de développement, l'identification des connaissances et compétences de l'ingénierie, la préparation d'un game design ludique, l'élaboration des mécanismes de jeu ou la construction d'une trame narrative se pensent conjointement : 
+
+>« On est en train de préparer le design d'un jeu qui va améliorer l'apprentissage des étudiants en sciences des matériaux. On est en train de préparer un jeu qui est basé aussi sur le rôle des femmes dans l'ingénierie, qui met dans son ADN la notion de développement durable. Et on aimerait que le jeu soit une manière de permettre aux étudiants d'approfondir certaines connaissances et compétences liées à l'ingénierie en sciences des matériaux. »

@@ -1,0 +1,233 @@
+---
+title: "État d’avancement (22 février 2023)"
+toc: false
+---
+
+Nous avons une structure qui nous permet de voir les étapes du jeu vidéo, les connaissances ou les compétences en jeu et comment les décliner à travers des mécanismes de jeu.
+Pour ce faire, nous avons élaboré : 
+-	Une carte des connaissances et compétences en science des matériaux (modélisation du domaine disciplinaire)
+-	Une sélection des connaissances et compétences prioritaies à transférer dans le jeu (événements d’apprentissages)
+-	Une liste des mécanismes d’apprentissage constituant le cœur pédaogique
+-	Un game design avec identification des personnages, objets, interactions.
+
+## Partie « modélisation du domaine disciplinaire »
+
+```{r echo=FALSE, fig.width= 2}
+library(DiagrammeR)
+
+mermaid("
+graph LR;
+
+A(Choisir un matériau adapté à la situation)
+B[Matériaux]
+C[Situation]
+D[Expérimenter]
+
+A --> B
+A --> C
+A --> D
+
+E{propriétés env. 20}
+F{microstructures et défauts}
+H{fonctions}
+I{contraintes}
+K{usage des outils}
+L{documenter les choix et observations avec un cahier de labo}
+M{planifier l'expérience selon la thématique}
+
+P1(ressources accessibles)
+P2(outils accessibles)
+I3(coût)
+
+N(proposer et argumenter)
+
+O(objectifs)
+
+P(A disposition)
+
+F1(loi de comportement)
+
+Q(expérience type pas propriété)
+
+R(référentiels des erreurs a priori)
+S(variables didactiques / Level design)
+S1(nombre de fonctions)
+S2(Nombre de propriétés)
+S3(Ajout de l'expérimentation)
+
+J --> J1(top 10)
+
+N --> N1(analyser)
+N --> N2(classer)
+N --> N3(grapher)
+N --> N4(gérer l'incertitude)
+N --> N5(lister les échantillons)
+N --> N6(documenter les essais)
+N --> N7(juger)
+
+F --> F1
+
+B --> E
+B --> F
+B --> G
+
+C --> H
+H --> I
+
+D --> K
+D --> L
+D --> M
+
+I --> I3
+
+C --> N
+C --> P
+
+H --> O
+
+P --> P1
+P --> P2
+
+D --> Q
+
+S --> S1
+S --> S2
+S --> S3
+
+K --> K1{lister le top 10}
+")
+
+
+```
+
+
+
+
+
+## Partie « modalités d’apprentissage »
+
+```{r echo=FALSE, fig.width= 2}
+library(DiagrammeR)
+
+mermaid("
+
+graph LR; 
+
+A(explorer le savoir)
+
+A --> A1(document)
+A --> A2(personne de référence)
+
+B(expérimenter)
+
+B --> B1(un outil)
+B1(un outil) --> B11(avec feedback)
+B11 --> B1
+
+
+C(exercises)
+
+C --> C1(démontrer les connaissances ou compétences)
+
+D(méta-réfléchir)
+
+D --> D1(journal de bord)
+D --> D2(questions ponctuelles)
+
+E(débattre)
+
+E --> E1(inviter à contacter son prof)
+
+F(Observer)
+F --> F1(savoir en action ou phénomène)
+")
+
+```
+
+
+
+## Partie « Game design »
+
+```{r echo=FALSE, fig.height=10}
+
+mermaid("
+graph TD;
+
+C{Indice, but du jeu}
+
+C --> C1(Jauge de paisibilité perçue)
+C --> C2(Indice de développement technique)
+C2 --> C21(Badges)
+
+A{Personnages}
+
+A --> A1(Benja)
+A --> A2(Savants)
+A2 --> A21(Personnages historiques)
+A2 --> A22(Autres personnages)
+A22 --> A221(personnage fantasque)
+A22 --> A222(Personnage sage)
+
+A1 --> A11(Superpouvoirs)
+A11 --> |actif dans le labo|A111(super vue)
+A1 --> A12(Elue)
+A12 --> |car elle est née avec|A11
+
+B{Objets}
+
+B --> B1(Matériaux)
+B --> B2(Outils)
+
+B1 --> B11(Lingots)
+B1 --> B12(choses à recycler)
+
+B2 --> B21(machines)
+
+B21 --> B211(balance)
+B21 --> B212(thermomètre)
+
+B2 --> B22(cahier de labo)
+B22 --> B221(poput invitant à prendre des notes à des moments opportuns)
+B22 --> B222(notes perso)
+B222 --> B2221(Prévoir des souvenirs que l'on peut remobiliser)
+B22 --> |peut s'aider avec|A2
+B22 --> B223(diagramme matériau / propriétés)
+B22 --> B224(...et tous les savoirs / connaissances identifiées)
+
+B22 -->|va permettre d'optimiser les| E
+
+B12 -->|pour en extraire les|B11
+
+D{Ressources savoirs}
+
+D --> D1(hologramme)
+D --> D2(vidéo)
+D --> D3(livre)
+D --> D4(rêve)
+D --> D5(interface IA)
+D --> A21
+D --> A22
+
+E{Quête, missions}
+
+E --> E1(nombre d'action limitées)
+E1 -->|sinon on réduit|C1
+
+C21 -->|en lien avec|E
+
+E --> E2(répondre à des demandes de PNJ)
+
+E --> E3(une demande est liée à un nombre de jours pour la réaliser)
+
+E3 -->|quand la mission est réussie, elle nourrit|B22
+
+F{Mouvements, interactions}
+
+F --> F1(déplacer)
+F --> F2(lent / vite)
+F --> F3(interagir avec des machines)
+F --> F4(interagir avec des PNJ)
+")
+
+
+```

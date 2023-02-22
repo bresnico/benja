@@ -1,0 +1,6 @@
+---
+title: "Transférabilité du projet "
+---
+
+Dans Benja, le gameplay et le cœur pédagogique sont élaborés dans le contexte de la science des matériaux. les mécanismes du jeu dépendent ainsi des connaissances et compétences visées dans l'ingénierie. 
+Ce processus d'élaboration d'un jeu profondément pensé pour la science des matériaux est la plus-value de l'équipe. Ceci signifie que les briques d'élaboration du jeu peuvent être récupérées et adaptées à d'autres disciplines, en particulier dans l'ingénierie.

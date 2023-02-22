@@ -1,0 +1,14 @@
+---
+lang: "fr"
+---
+# Bienvenue {.unnumbered}
+
+Ce livre synthétise l'avancement du projet "Benja".
+
+# TL;DR
+
+-	Benja vit dans un monde post-apocalyptique. Née avec une vue qui lui permet d'observer la matière à l'échelle atomique, notre héroïne va avoir à cœur de retrouver les connaissances et compétences humaines perdue afin de contribuer à reconstruire une société. Son don naturel va l'orienter vers la manipulation des matériaux nécessaires à la reconstruction et au progrès technologique. Consciente des erreurs du passé, elle aura à cœur d'utiliser son don avec une grande conscience des enjeux de développement durable et un grand respect des ressources à disposition. 
+-	Le joueur aide Benja à récolter, observer, combiner des matériaux. Plus benja progresse dans ses missions d’aide, plus elle arrive à stabiliser des connaissances et compétences oubliées. Quand elle parvient à optimiser ses choix de manipulation dans le respect du développement durable, elle augmente la qualité de vie dans les villages où elle intervient.
+-	L’originalité de ce projet est qu’il combine des connaissances réelles en science des matériaux et un cœur pédagogique orientant complètement le jeu vers l'apprentissage de notions d'ingénierie dans un contexte de développement durable. L’expérience du joueur est soignée tout au long du design pour augmenter l’engagement, la motivation et le plaisir de jouer.
+-	Notre équipe pluridisciplinaire est capable de produire un jeu qui combine plaisir et apprentissage à travers des compétences complémentaires.
+-	Les méanismes du jeu sont pensés pour être transférables à d’autres contextes de formation.

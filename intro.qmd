@@ -1,0 +1,4 @@
+# Origine et contexte
+
+Ce projet a vu le jour sous l'impulsion d'un professeur en sciences de matériaux dans une école d'ingénieurs. En s'associant à des chercheurs en pédagogie et en Game design ainsi qu'avec un développeur de jeux, il a donné naissance au projet Benja.
+Le projet, démarré en 2020, met au travail une équipe pluridisciplinaire inédite. les compétences en présence permettent de rendre crédible l'intention de créer un jeu engageant, motivant et qui modèle des apprentissages en sciences des matériaux sans rien sacrifier au plaisir de jouer.

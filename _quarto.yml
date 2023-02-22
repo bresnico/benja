@@ -1,0 +1,29 @@
+project:
+  type: book
+
+book:
+  title: "Benja"
+  author: 
+      - Samuel
+      - Gaëtan
+      - Lionel
+      - Guillaume
+      - Nicolas
+  date: "2/22/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - team.qmd
+    - summary.qmd
+    - transfert.qmd
+    - progress.qmd
+    - next.qmd
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+

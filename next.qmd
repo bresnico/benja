@@ -1,0 +1,38 @@
+---
+title: "Prochaines étapes"
+toc: false
+---
+
+###	Réaliser une présentation (Pitch Presentation)
+Dans le monde du jeu vidéo, voici les information attendues par un Editeur:
+
+-	What is in the game ?
+-	Who is the game for ?
+-	Where is the audience ?
+-	What it will cost ?
+-	When did dev start, When can dev finish ?
+-	Roadmap
+-	Features already done / to be done
+-	Complete budget breakdown
+-	Estimated budget
+-	How much we already invested
+-	How much we want to receive
+-	Why are we the ones that can make and deliver the project.
+-	Our experiences and other projects.
+-	Unique Selling Points
+-	Why are consumers going to care ? Why are they going to play this instead of another game/activity ?
+-	Initital platform and future porting opportunities
+
+Additional details ready if requested: burn rate, staffing plan, post-launch plan, marketing strategy
+
+Pour un pitch en personne le format est souvent une présentation powerpoint (slides deck) avec beaucoup de contenu visuel.
+Voici un [deck souvent cité en exemple](https://www.notion.so/Bear-Breakfast-f3d9ee881d3340f7bc8354ef1c2abe7a).
+
+
+###	Mobiliser des fonds
+-	[Etat de VD](https://www.vd.ch/themes/culture/aides-et-soutiens-a-des-projets-culturels/appels-a-projets#c2070343), Aide de 50'000.- ventilée sur 3 projets séléctionnés.
+
+-	[co.LAB](https://www.colab-project.ch) : a digital LAB for the co-design, co-development and co-evaluation of digital learning game
+Recherche dans le domaine de la modélisation de serious games. Au cas où il y a des idées intéressantes ou des choses que l'on a oublié.
+
+
