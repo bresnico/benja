@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Benja",
+    "section": "",
+    "text": "Bienvenue\nCe livre synthétise l’avancement du projet “Benja”.\n\n\nTL;DR\n\nBenja vit dans un monde post-apocalyptique. Née avec une vue qui lui permet d’observer la matière à l’échelle atomique, notre héroïne va avoir à cœur de retrouver les connaissances et compétences humaines perdue afin de contribuer à reconstruire une société. Son don naturel va l’orienter vers la manipulation des matériaux nécessaires à la reconstruction et au progrès technologique. Consciente des erreurs du passé, elle aura à cœur d’utiliser son don avec une grande conscience des enjeux de développement durable et un grand respect des ressources à disposition.\nLe joueur aide Benja à récolter, observer, combiner des matériaux. Plus benja progresse dans ses missions d’aide, plus elle arrive à stabiliser des connaissances et compétences oubliées. Quand elle parvient à optimiser ses choix de manipulation dans le respect du développement durable, elle augmente la qualité de vie dans les villages où elle intervient.\nL’originalité de ce projet est qu’il combine des connaissances réelles en science des matériaux et un cœur pédagogique orientant complètement le jeu vers l’apprentissage de notions d’ingénierie dans un contexte de développement durable. L’expérience du joueur est soignée tout au long du design pour augmenter l’engagement, la motivation et le plaisir de jouer.\nNotre équipe pluridisciplinaire est capable de produire un jeu qui combine plaisir et apprentissage à travers des compétences complémentaires.\nLes méanismes du jeu sont pensés pour être transférables à d’autres contextes de formation."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Origine et contexte",
+    "section": "",
+    "text": "Ce projet a vu le jour sous l’impulsion d’un professeur en sciences de matériaux dans une école d’ingénieurs. En s’associant à des chercheurs en pédagogie et en Game design ainsi qu’avec un développeur de jeux, il a donné naissance au projet Benja. Le projet, démarré en 2020, met au travail une équipe pluridisciplinaire inédite. les compétences en présence permettent de rendre crédible l’intention de créer un jeu engageant, motivant et qui modèle des apprentissages en sciences des matériaux sans rien sacrifier au plaisir de jouer."
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "2  Composition d’équipe",
+    "section": "",
+    "text": "Samuel Rey-Mermet, ingénierie et science des matériaux\nGaëtan Cretton, développement de jeux\nLional Alvarez, pédagogie et game design\nGuillaume Tschupp, pédagogie et game design\nNicolas Bressoud, pédagogie"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Description du projet et intention générale",
+    "section": "",
+    "text": "Le projet Benja peut-être pensé comme une expérience de jeu vidéo à la fois ludique et à la fois source d’apprentissage dans un domaine disciplinaire très précis, la science des matériaux. Dans les premières étapes du design, l’équipe est dans une activité constante d’élaboration d’une expérience de jeu qui mêle plaisir et apprentissage. Au sein des étapes clés de développement, l’identification des connaissances et compétences de l’ingénierie, la préparation d’un game design ludique, l’élaboration des mécanismes de jeu ou la construction d’une trame narrative se pensent conjointement :\n\n« On est en train de préparer le design d’un jeu qui va améliorer l’apprentissage des étudiants en sciences des matériaux. On est en train de préparer un jeu qui est basé aussi sur le rôle des femmes dans l’ingénierie, qui met dans son ADN la notion de développement durable. Et on aimerait que le jeu soit une manière de permettre aux étudiants d’approfondir certaines connaissances et compétences liées à l’ingénierie en sciences des matériaux. »"
+  },
+  {
+    "objectID": "transfert.html",
+    "href": "transfert.html",
+    "title": "4  Transférabilité du projet",
+    "section": "",
+    "text": "Dans Benja, le gameplay et le cœur pédagogique sont élaborés dans le contexte de la science des matériaux. les mécanismes du jeu dépendent ainsi des connaissances et compétences visées dans l’ingénierie. Ce processus d’élaboration d’un jeu profondément pensé pour la science des matériaux est la plus-value de l’équipe. Ceci signifie que les briques d’élaboration du jeu peuvent être récupérées et adaptées à d’autres disciplines, en particulier dans l’ingénierie."
+  },
+  {
+    "objectID": "progress.html#partie-modélisation-du-domaine-disciplinaire",
+    "href": "progress.html#partie-modélisation-du-domaine-disciplinaire",
+    "title": "5  État d’avancement (22 février 2023)",
+    "section": "5.1 Partie « modélisation du domaine disciplinaire »",
+    "text": "5.1 Partie « modélisation du domaine disciplinaire »"
+  },
+  {
+    "objectID": "progress.html#partie-modalités-dapprentissage",
+    "href": "progress.html#partie-modalités-dapprentissage",
+    "title": "5  État d’avancement (22 février 2023)",
+    "section": "5.2 Partie « modalités d’apprentissage »",
+    "text": "5.2 Partie « modalités d’apprentissage »"
+  },
+  {
+    "objectID": "progress.html#partie-game-design",
+    "href": "progress.html#partie-game-design",
+    "title": "5  État d’avancement (22 février 2023)",
+    "section": "5.3 Partie « Game design »",
+    "text": "5.3 Partie « Game design »"
+  },
+  {
+    "objectID": "next.html",
+    "href": "next.html",
+    "title": "6  Prochaines étapes",
+    "section": "",
+    "text": "6.0.1 Réaliser une présentation (Pitch Presentation)\nDans le monde du jeu vidéo, voici les information attendues par un Editeur:\n\nWhat is in the game ?\nWho is the game for ?\nWhere is the audience ?\nWhat it will cost ?\nWhen did dev start, When can dev finish ?\nRoadmap\nFeatures already done / to be done\nComplete budget breakdown\nEstimated budget\nHow much we already invested\nHow much we want to receive\nWhy are we the ones that can make and deliver the project.\nOur experiences and other projects.\nUnique Selling Points\nWhy are consumers going to care ? Why are they going to play this instead of another game/activity ?\nInitital platform and future porting opportunities\n\nAdditional details ready if requested: burn rate, staffing plan, post-launch plan, marketing strategy\nPour un pitch en personne le format est souvent une présentation powerpoint (slides deck) avec beaucoup de contenu visuel. Voici un deck souvent cité en exemple.\n\n\n6.0.2 Mobiliser des fonds\n\nEtat de VD, Aide de 50’000.- ventilée sur 3 projets séléctionnés.\nco.LAB : a digital LAB for the co-design, co-development and co-evaluation of digital learning game Recherche dans le domaine de la modélisation de serious games. Au cas où il y a des idées intéressantes ou des choses que l’on a oublié."
+  }
+]

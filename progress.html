@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Benja - 5&nbsp; État d’avancement (22 février 2023)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./next.html" rel="next">
+<link href="./transfert.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script src="site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
+<script src="site_libs/d3-3.3.8/d3.min.js"></script>
+<script src="site_libs/dagre-0.4.0/dagre-d3.min.js"></script>
+<link href="site_libs/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet">
+<script src="site_libs/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
+<link href="site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
+<script src="site_libs/chromatography-0.1/chromatography.js"></script>
+<script src="site_libs/DiagrammeR-binding-1.0.9/DiagrammeR.js"></script>
+
+
+</head>
+
+<body class="nav-sidebar floating fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">État d’avancement (22 février 2023)</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Benja</a> 
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Bienvenue</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Origine et contexte</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./team.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Composition d’équipe</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./summary.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Description du projet et intention générale</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./transfert.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Transférabilité du projet</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./progress.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">État d’avancement (22 février 2023)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./next.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Prochaines étapes</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">État d’avancement (22 février 2023)</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Nous avons une structure qui nous permet de voir les étapes du jeu vidéo, les connaissances ou les compétences en jeu et comment les décliner à travers des mécanismes de jeu. Pour ce faire, nous avons élaboré : - Une carte des connaissances et compétences en science des matériaux (modélisation du domaine disciplinaire) - Une sélection des connaissances et compétences prioritaies à transférer dans le jeu (événements d’apprentissages) - Une liste des mécanismes d’apprentissage constituant le cœur pédaogique - Un game design avec identification des personnages, objets, interactions.</p>
+<section id="partie-modélisation-du-domaine-disciplinaire" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="partie-modélisation-du-domaine-disciplinaire"><span class="header-section-number">5.1</span> Partie « modélisation du domaine disciplinaire »</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="DiagrammeR html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-27f00353e83a5c62503f" style="width:100%;height:1625px;"></div>
+<script type="application/json" data-for="htmlwidget-27f00353e83a5c62503f">{"x":{"diagram":"\ngraph LR;\n\nA(Choisir un matériau adapté à la situation)\nB[Matériaux]\nC[Situation]\nD[Expérimenter]\n\nA --> B\nA --> C\nA --> D\n\nE{propriétés env. 20}\nF{microstructures et défauts}\nH{fonctions}\nI{contraintes}\nK{usage des outils}\nL{documenter les choix et observations avec un cahier de labo}\nM{planifier l'expérience selon la thématique}\n\nP1(ressources accessibles)\nP2(outils accessibles)\nI3(coût)\n\nN(proposer et argumenter)\n\nO(objectifs)\n\nP(A disposition)\n\nF1(loi de comportement)\n\nQ(expérience type pas propriété)\n\nR(référentiels des erreurs a priori)\nS(variables didactiques / Level design)\nS1(nombre de fonctions)\nS2(Nombre de propriétés)\nS3(Ajout de l'expérimentation)\n\nJ --> J1(top 10)\n\nN --> N1(analyser)\nN --> N2(classer)\nN --> N3(grapher)\nN --> N4(gérer l'incertitude)\nN --> N5(lister les échantillons)\nN --> N6(documenter les essais)\nN --> N7(juger)\n\nF --> F1\n\nB --> E\nB --> F\nB --> G\n\nC --> H\nH --> I\n\nD --> K\nD --> L\nD --> M\n\nI --> I3\n\nC --> N\nC --> P\n\nH --> O\n\nP --> P1\nP --> P2\n\nD --> Q\n\nS --> S1\nS --> S2\nS --> S3\n\nK --> K1{lister le top 10}\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="partie-modalités-dapprentissage" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="partie-modalités-dapprentissage"><span class="header-section-number">5.2</span> Partie « modalités d’apprentissage »</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="DiagrammeR html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-f458fa85f205b85f40cc" style="width:100%;height:1625px;"></div>
+<script type="application/json" data-for="htmlwidget-f458fa85f205b85f40cc">{"x":{"diagram":"\n\ngraph LR; \n\nA(explorer le savoir)\n\nA --> A1(document)\nA --> A2(personne de référence)\n\nB(expérimenter)\n\nB --> B1(un outil)\nB1(un outil) --> B11(avec feedback)\nB11 --> B1\n\n\nC(exercises)\n\nC --> C1(démontrer les connaissances ou compétences)\n\nD(méta-réfléchir)\n\nD --> D1(journal de bord)\nD --> D2(questions ponctuelles)\n\nE(débattre)\n\nE --> E1(inviter à contacter son prof)\n\nF(Observer)\nF --> F1(savoir en action ou phénomène)\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="partie-game-design" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="partie-game-design"><span class="header-section-number">5.3</span> Partie « Game design »</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="DiagrammeR html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-d11502eec204ee154aae" style="width:100%;height:928px;"></div>
+<script type="application/json" data-for="htmlwidget-d11502eec204ee154aae">{"x":{"diagram":"\ngraph TD;\n\nC{Indice, but du jeu}\n\nC --> C1(Jauge de paisibilité perçue)\nC --> C2(Indice de développement technique)\nC2 --> C21(Badges)\n\nA{Personnages}\n\nA --> A1(Benja)\nA --> A2(Savants)\nA2 --> A21(Personnages historiques)\nA2 --> A22(Autres personnages)\nA22 --> A221(personnage fantasque)\nA22 --> A222(Personnage sage)\n\nA1 --> A11(Superpouvoirs)\nA11 --> |actif dans le labo|A111(super vue)\nA1 --> A12(Elue)\nA12 --> |car elle est née avec|A11\n\nB{Objets}\n\nB --> B1(Matériaux)\nB --> B2(Outils)\n\nB1 --> B11(Lingots)\nB1 --> B12(choses à recycler)\n\nB2 --> B21(machines)\n\nB21 --> B211(balance)\nB21 --> B212(thermomètre)\n\nB2 --> B22(cahier de labo)\nB22 --> B221(poput invitant à prendre des notes à des moments opportuns)\nB22 --> B222(notes perso)\nB222 --> B2221(Prévoir des souvenirs que l'on peut remobiliser)\nB22 --> |peut s'aider avec|A2\nB22 --> B223(diagramme matériau / propriétés)\nB22 --> B224(...et tous les savoirs / connaissances identifiées)\n\nB22 -->|va permettre d'optimiser les| E\n\nB12 -->|pour en extraire les|B11\n\nD{Ressources savoirs}\n\nD --> D1(hologramme)\nD --> D2(vidéo)\nD --> D3(livre)\nD --> D4(rêve)\nD --> D5(interface IA)\nD --> A21\nD --> A22\n\nE{Quête, missions}\n\nE --> E1(nombre d'action limitées)\nE1 -->|sinon on réduit|C1\n\nC21 -->|en lien avec|E\n\nE --> E2(répondre à des demandes de PNJ)\n\nE --> E3(une demande est liée à un nombre de jours pour la réaliser)\n\nE3 -->|quand la mission est réussie, elle nourrit|B22\n\nF{Mouvements, interactions}\n\nF --> F1(déplacer)\nF --> F2(lent / vite)\nF --> F3(interagir avec des machines)\nF --> F4(interagir avec des PNJ)\n"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./transfert.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Transférabilité du projet</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./next.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Prochaines étapes</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
